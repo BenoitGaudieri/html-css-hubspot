@@ -6,7 +6,7 @@
 
 body {
     font-family: "Lato";
-    color: #cccccc;
+    color: #33475b;
 }
 
 /* Utilities section */
@@ -16,6 +16,12 @@ body {
     background-color: #00fcc5e0;
     border-bottom: 2px solid #ff7a59;
     height: 500px;
+}
+
+.col-mark {
+    background-color: #f8a100e0;
+    border: 2px solid #5985ff;
+    height: 300px;
 }
 
 .clearfix::after {
@@ -31,6 +37,10 @@ body {
 
 .w-50 {
     width: 50%;
+}
+
+.w-33 {
+    width: calc(100% / 3);
 }
 
 .float-left {
@@ -68,18 +78,26 @@ body {
 }
 
 /* Navbar */
-
-.navbar-content {
-    text-align: center;
-}
-
 #navbar-fixed {
     position: fixed;
     background: #f5f8fa;
     width: 100%;
     line-height: 80px;
     border-bottom: 1px solid #cbd6e2;
-    z-index: 1;
+}
+
+
+#navbar {
+    background: #ffffff;
+    width: 100%;
+    line-height: 80px;
+    border-bottom: 1px solid #cbd6e2;
+    padding-top: 80px;
+}
+
+/* Common navbar styles */
+.navbar-content {
+    text-align: center;
 }
 
 .lang a {
@@ -89,5 +107,13 @@ body {
 
 .icon {
     color: #2277d8;
+    padding-right: 30px;
+}
+
+.list {
+    color: #33475b;
+}
+
+.list li {
     padding-right: 30px;
 }

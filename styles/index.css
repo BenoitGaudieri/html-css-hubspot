@@ -9,8 +9,12 @@ body {
     color: #33475b;
 }
 
-/* Utilities section */
+/* Typography */
+.content {
+    text-align: center;
+}
 
+/* Utilities section */
 /* content mark */
 .mark {
     background-color: #00fcc5e0;
@@ -96,10 +100,6 @@ body {
 }
 
 /* Common navbar styles */
-.navbar-content {
-    text-align: center;
-}
-
 .lang a {
     padding: 20px;
     color: #666666;
@@ -116,4 +116,31 @@ body {
 
 .list li {
     padding-right: 30px;
+}
+
+/* Jumbotron */
+#jumbotron {
+    height: 695px;
+    position: relative;
+}
+
+/* TODO: to fix */
+.back {
+    background-image: url(../img/jumbotron.png);
+    background-color: #fff2ee;
+    background-repeat: no-repeat;
+    background-size: 1000px cover;
+    height: 100%;
+    width: 100%;
+    background-position: 100%, 100%;
+}
+
+/* .jumbo-div {
+    position: relative;
+} */
+
+.jumbo-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
 }

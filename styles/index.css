@@ -10,6 +10,14 @@ body {
 }
 
 /* Utilities section */
+
+/* content mark */
+.mark {
+    background-color: #00fcc5e0;
+    border-bottom: 2px solid #ff7a59;
+    height: 500px;
+}
+
 .clearfix::after {
     content: "";
     display: table;

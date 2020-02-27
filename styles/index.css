@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato";
+    color: #cccccc;
+}
+
+/* Utilities */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.w-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+/* Menu */
+.menu-inline {
+    list-style: none;
+}
+
+.menu-inline li {
+    display: inline-block;
+}
+
+.menu-inline a {
+    text-decoration: none;
+    color: #666666;
+}
+
+/* Navbar */
+#navbar-fixed {
+    position: fixed;
+    background: #f5f8fa;
+    width: 100%;
+    line-height: 80px;
+    border-bottom: 1px solid #cbd6e2;
+    z-index: 1;
+}

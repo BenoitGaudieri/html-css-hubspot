@@ -143,6 +143,14 @@ p {
     padding-top: 80px;
 }
 
+.navbar-logo {
+    margin-left: 100px;
+}
+
+.navbar-right {
+    text-align: right;
+}
+
 /* Common navbar styles */
 .lang a {
     padding: 20px;
@@ -194,6 +202,7 @@ p {
 /* Hero */
 #hero {
     background: #f5f8fa;
+    height: 100%;
 }
 
 .banner {
@@ -216,6 +225,9 @@ p {
 .hero-content img {
     height: 150px;
     display: inline-block;
+}
+
+.main-box img {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 100px;
@@ -226,8 +238,35 @@ p {
     margin-bottom: 30px;
 }
 
-.hero-content-text {
+.box-text {
     padding-left: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.pad-right {
+    padding-right: 30px;
+}
+
+.main-box {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.first-box {
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.center-box {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.last-box {
+    margin-right: 100px;
+    margin-bottom: 50px;
 }

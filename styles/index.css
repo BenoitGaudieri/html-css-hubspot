@@ -36,6 +36,10 @@ p {
     font-size: 80%;
 }
 
+.t-center {
+    text-align: center;
+}
+
 /* Utilities section */
 /* content mark */
 .mark {
@@ -63,6 +67,11 @@ p {
 
 .w-50 {
     width: 50%;
+    margin: 0 auto;
+}
+
+.w-50 {
+    width: 50%;
 }
 
 .w-33 {
@@ -71,6 +80,12 @@ p {
 
 .float-left {
     float: left;
+}
+
+.box {
+    background: #ffffff;
+    border-radius: 5px;
+    height: 100%;
 }
 
 /* Buttons */
@@ -174,4 +189,45 @@ p {
     top: 20%;
     left: 0;
     transform: translateY(-20%);
+}
+
+/* Hero */
+#hero {
+    background: #f5f8fa;
+}
+
+.banner {
+    margin: 0 auto;
+}
+
+.hero-text {
+    margin-bottom: 80px;
+}
+
+.banner img {
+    height: 200px;
+    margin-top: 80px;
+}
+
+.hero-content {
+    margin-left: 50px;
+}
+
+.hero-content img {
+    height: 150px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.hero-content a {
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.hero-content-text {
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }

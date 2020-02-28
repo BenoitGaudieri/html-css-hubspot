@@ -414,6 +414,8 @@ _________              __  .__
     border-bottom: 1px solid #ffffff;
     text-align: center;
     font-size: 200%;
+    /* border fix */
+    margin-left: -3px;
 }
 
 .grid-element:nth-child(4) {

@@ -487,8 +487,14 @@ ___________            __
     font-size: 120%;
 }
 
+.footer-list .btn {
+    background: #fff;
+    color: #33475b;
+}
+
 .footer-icons i {
     padding: 10px;
+    cursor: pointer;
 }
 
 .footer-lang {
@@ -508,8 +514,23 @@ ___________            __
     color: #cbd6d5;
 }
 
+.footer-div {
+    position: relative;
+}
+
+.footer-lang::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #cbd6d5;
+    position: absolute;
+    top: 130%;
+    left: 0;
+    transform: translateY(150%);
+}
+
 .footer-copyright {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .footer-logo {
@@ -523,4 +544,7 @@ ___________            __
 .footer-legal a {
     text-decoration: none;
     color: #cbd6d5;
+    padding-right: 20px;
+    font-size: 120%;
+    font-weight: 900;
 }

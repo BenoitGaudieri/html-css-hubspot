@@ -236,6 +236,7 @@ _________              __  .__
 /* JUMBOTRON SECTION */
 #jumbotron {
     height: 695px;
+    position: relative;
 }
 
 /* TODO: to fix */
@@ -247,6 +248,19 @@ _________              __  .__
     height: 100%;
     width: 100%;
     background-position: 100%, 100%;
+}
+
+.back:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #afebe4;
+    height: 76px;
+    width: 100%;
+    border-top: 3px solid #33475b;
+    border-bottom: 3px solid #33475b;
+    transform: translateY(-2%);
 }
 
 .jumbo-div {

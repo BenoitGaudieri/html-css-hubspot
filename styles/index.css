@@ -36,6 +36,18 @@ p {
     font-size: 80%;
 }
 
+.v-small {
+    font-size: 50%;
+}
+
+.big {
+    font-size: 150%;
+}
+
+.heavy {
+    font-weight: 900;
+}
+
 .t-center {
     text-align: center;
 }
@@ -280,7 +292,7 @@ p {
 }
 
 .grid-text {
-    padding-top: 100px;
+    padding-top: 120px;
     line-height: 40px;
 }
 
@@ -289,13 +301,13 @@ p {
 }
 
 .grid-text p {
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 120%;
 }
 
 .grid {
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -305,7 +317,7 @@ p {
     border-right: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
     text-align: center;
-    font-size: 400%;
+    font-size: 200%;
 }
 
 .grid-element:nth-child(4) {

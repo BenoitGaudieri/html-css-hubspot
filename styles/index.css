@@ -315,6 +315,10 @@ _________              __  .__
     margin-left: 50px;
 }
 
+.hero-content-height {
+    height: 500px;
+}
+
 .hero-content img {
     padding-top: 20px;
     height: 150px;
@@ -327,7 +331,7 @@ _________              __  .__
     margin-left: 100px;
 }
 
-.hero-content a {
+.hero-btn {
     margin-left: 100px;
     margin-bottom: 30px;
 }

@@ -250,6 +250,7 @@ _________              __  .__
     background-position: 100%, 100%;
 }
 
+/* image fix */
 .back:before {
     content: '';
     position: absolute;
@@ -339,7 +340,7 @@ _________              __  .__
     position: relative;
 }
 
-.box-text:after {
+.line:after {
     content: "";
     width: 75%;
     height: 1px;

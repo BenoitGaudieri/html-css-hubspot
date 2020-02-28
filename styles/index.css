@@ -10,6 +10,14 @@ body {
     font-size: 16px;
 }
 
+/* Utilities section */
+/* 
+___________
+\__    ___/
+  |    |   
+  |    |   
+  |____|   
+*/
 /* Typography */
 .content {
     text-align: center;
@@ -44,6 +52,10 @@ p {
     font-size: 150%;
 }
 
+.bigger {
+    font-size: 250%;
+}
+
 .heavy {
     font-weight: 900;
 }
@@ -52,7 +64,6 @@ p {
     text-align: center;
 }
 
-/* Utilities section */
 /* content mark */
 .mark {
     background-color: #00fcc5e0;
@@ -66,6 +77,15 @@ p {
     height: 300px;
 }
 
+/* 
+________ 
+/  _____/ 
+/   \  ___ 
+\    \_\  \
+\______  /
+       \/  
+*/
+/* General utilities */
 .clearfix::after {
     content: "";
     display: table;
@@ -100,6 +120,14 @@ p {
     height: 100%;
 }
 
+/* 
+__________ 
+\______   \
+ |    |  _/
+ |    |   \
+ |______  /
+        \/  
+*/
 /* Buttons */
 .btn {
     display: inline-block;
@@ -123,6 +151,10 @@ p {
     font-size: 120%;
 }
 
+.btn-pad {
+    padding: 20px 30px;
+}
+
 /* Menu */
 .menu-inline {
     list-style: none;
@@ -136,7 +168,7 @@ p {
     text-decoration: none;
 }
 
-/* Navbar */
+/* NAVBAR */
 #navbar-fixed {
     position: fixed;
     background: #f5f8fa;
@@ -182,7 +214,15 @@ p {
     padding-right: 30px;
 }
 
-/* Jumbotron */
+/* 
+_________              __  .__               
+/   _____/ ____   _____/  |_|__| ____   ____  
+\_____  \_/ __ \_/ ___\   __\  |/  _ \ /    \ 
+/        \  ___/\  \___|  | |  (  <_> )   |  \
+/_______  /\___  >\___  >__| |__|\____/|___|  /
+       \/     \/     \/                    \/  
+*/
+/* JUMBOTRON SECTION */
 #jumbotron {
     height: 695px;
 }
@@ -211,7 +251,15 @@ p {
     transform: translateY(-20%);
 }
 
-/* Hero */
+/* 
+_________              __  .__               
+/   _____/ ____   _____/  |_|__| ____   ____  
+\_____  \_/ __ \_/ ___\   __\  |/  _ \ /    \ 
+/        \  ___/\  \___|  | |  (  <_> )   |  \
+/_______  /\___  >\___  >__| |__|\____/|___|  /
+       \/     \/     \/                    \/  
+*/
+/* HERO SECTION */
 #hero {
     background: #f5f8fa;
     height: 100%;
@@ -283,7 +331,15 @@ p {
     margin-bottom: 50px;
 }
 
-/* DATA GRID */
+/* 
+_________              __  .__               
+/   _____/ ____   _____/  |_|__| ____   ____  
+\_____  \_/ __ \_/ ___\   __\  |/  _ \ /    \ 
+/        \  ___/\  \___|  | |  (  <_> )   |  \
+/_______  /\___  >\___  >__| |__|\____/|___|  /
+       \/     \/     \/                    \/  
+*/
+/* DATA GRID SECTION */
 #data-grid {
     background: #00b8a9;
     height: 900px;
@@ -331,4 +387,63 @@ p {
 .grid-data-element {
     padding: 30px;
     text-align: center;
+}
+
+/* 
+_________              __  .__               
+/   _____/ ____   _____/  |_|__| ____   ____  
+\_____  \_/ __ \_/ ___\   __\  |/  _ \ /    \ 
+/        \  ___/\  \___|  | |  (  <_> )   |  \
+/_______  /\___  >\___  >__| |__|\____/|___|  /
+       \/     \/     \/                    \/  
+*/
+/* INFO SECTION */
+#info {
+    height: 900px;
+}
+
+.info-text {
+    padding-top: 100px;
+    line-height: 80px;
+    word-spacing: 10px;
+}
+
+.info-text-description {
+    word-spacing: 3px;
+    font-size: 100%;
+    padding-bottom: 20px;
+}
+
+.logo-grid-first-r {
+    padding-top: 80px;
+}
+
+.logo-grid-last-r {
+    padding-top: 30px;
+}
+
+.info-logo-img {
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.info-logo-img img {
+    width: 100px;
+}
+
+.info-second-row {
+    padding-top: 100px;
+}
+
+.info-second-row btn {
+    font-size: 80%;
+}
+
+.img-sponsor {
+    padding-left: 80px;
+}
+
+.img-sponsor img {
+    height: 400px;
 }

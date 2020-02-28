@@ -102,12 +102,12 @@ ________
     margin: 0 auto;
 }
 
-.w-50 {
-    width: 50%;
-}
-
 .w-33 {
     width: calc(100% / 3);
+}
+
+.w-25 {
+    width: 25%;
 }
 
 .float-left {
@@ -252,6 +252,12 @@ _________              __  .__
 }
 
 /* 
+_____         .__        
+/     \ _____  |__| ____  
+/  \ /  \\__  \ |  |/    \ 
+/    Y    \/ __ \|  |   |  \
+\____|__  (____  /__|___|  /
+      \/     \/        \/  
 _________              __  .__               
 /   _____/ ____   _____/  |_|__| ____   ____  
 \_____  \_/ __ \_/ ___\   __\  |/  _ \ /    \ 
@@ -446,4 +452,75 @@ _________              __  .__
 
 .img-sponsor img {
     height: 400px;
+}
+
+/* 
+___________            __                
+\_   _____/___   _____/  |_  ___________ 
+ |    __)/  _ \ /  _ \   __\/ __ \_  __ \
+ |     \(  <_> |  <_> )  | \  ___/|  | \/
+ \___  / \____/ \____/|__|  \___  >__|   
+     \/                         \/        
+*/
+/* FOOTER */
+#main-footer {
+    background: #33475b;
+    color: #cbd6d5;
+    height: 780px;
+}
+
+.footer-list {
+    padding-top: 100px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.footer-list li {
+    list-style: none;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.footer-list li:nth-child(1) {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 120%;
+}
+
+.footer-icons i {
+    padding: 10px;
+}
+
+.footer-lang {
+    text-align: center;
+    font-size: 130%;
+    word-spacing: 20px;
+    padding-top: 80px;
+}
+
+.footer-lang li {
+    list-style: none;
+    display: inline-block;
+}
+
+.footer-lang a {
+    text-decoration: none;
+    color: #cbd6d5;
+}
+
+.footer-copyright {
+    margin-top: 50px;
+}
+
+.footer-logo {
+    text-align: left;
+}
+
+.footer-legal {
+    text-align: right;
+}
+
+.footer-legal a {
+    text-decoration: none;
+    color: #cbd6d5;
 }

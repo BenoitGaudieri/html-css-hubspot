@@ -270,3 +270,38 @@ p {
     margin-right: 100px;
     margin-bottom: 50px;
 }
+
+/* DATA GRID */
+#data-grid {
+    background: #00b8a9;
+    height: 900px;
+    position: relative;
+}
+
+.grid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid-element {
+    display: inline-block;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    text-align: center;
+    font-size: 400%;
+}
+
+.grid-element:nth-child(4) {
+    border-right: 0;
+}
+
+.bottom-row .grid-element {
+    border-bottom: 0;
+}
+
+.grid-data-element {
+    padding: 30px;
+    text-align: center;
+}

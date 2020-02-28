@@ -97,9 +97,20 @@ ________
     margin: 0 auto;
 }
 
+.w-70 {
+    width: 70%;
+}
+
 .w-50 {
     width: 50%;
+}
+
+.centered {
     margin: 0 auto;
+}
+
+.w-30 {
+    width: 30%;
 }
 
 .w-33 {
@@ -279,6 +290,7 @@ _________              __  .__
     margin-bottom: 80px;
 }
 
+
 .banner img {
     height: 200px;
     margin-top: 80px;
@@ -289,6 +301,7 @@ _________              __  .__
 }
 
 .hero-content img {
+    padding-top: 20px;
     height: 150px;
     display: inline-block;
 }
@@ -308,6 +321,27 @@ _________              __  .__
     padding-left: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.box-text:after {
+    content: "";
+    width: 75%;
+    height: 1px;
+    background: #cbd6d5;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+}
+
+.box-text i {
+    color: #ff7a59;
+    padding-right: 5px;
+}
+
+.hero-content:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 .pad-right {

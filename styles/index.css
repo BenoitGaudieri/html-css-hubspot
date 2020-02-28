@@ -276,11 +276,26 @@ p {
     background: #00b8a9;
     height: 900px;
     position: relative;
+    color: #ffffff;
+}
+
+.grid-text {
+    padding-top: 100px;
+    line-height: 40px;
+}
+
+.grid-text h2 {
+    font-size: 200%;
+}
+
+.grid-text p {
+    padding-top: 20px;
+    font-size: 120%;
 }
 
 .grid {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

@@ -200,6 +200,7 @@ __________
 
 .navbar-logo {
     margin-left: 100px;
+    vertical-align: middle;
 }
 
 .navbar-right {
@@ -661,4 +662,11 @@ ___________            __
     padding-right: 20px;
     font-size: 120%;
     font-weight: 900;
+}
+
+.copy-me {
+    background: linear-gradient(#ff6600, #ff9f04);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
 }

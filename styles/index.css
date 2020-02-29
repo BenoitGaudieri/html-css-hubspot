@@ -272,11 +272,11 @@ _________              __  .__
     left: 0;
     bottom: 0;
     background: #afebe4;
-    height: 76px;
+    height: 77px;
     width: 100%;
     border-top: 3px solid #33475b;
     border-bottom: 3px solid #33475b;
-    transform: translateY(-2%);
+    transform: translateY(-1%);
 }
 
 .jumbo-div {

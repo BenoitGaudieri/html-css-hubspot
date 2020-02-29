@@ -222,13 +222,17 @@ __________
     background: #cbd6d5;
     position: absolute;
     top: 21%;
-    left: 12%;
+    left: 15%;
 }
 
 /* Common navbar styles */
 .lang a {
     padding-right: 26px;
     color: #666666;
+}
+
+.lang i {
+    padding-left: 5px;
 }
 
 .icon {

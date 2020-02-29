@@ -206,9 +206,23 @@ __________
     text-align: right;
 }
 
+.nav-line-ref {
+    position: relative;
+}
+
+.nav-line-ref li:nth-child(1)::after {
+    content: "";
+    width: 1px;
+    height: 60%;
+    background: #cbd6d5;
+    position: absolute;
+    top: 21%;
+    left: 12%;
+}
+
 /* Common navbar styles */
 .lang a {
-    padding: 20px;
+    padding-right: 26px;
     color: #666666;
 }
 

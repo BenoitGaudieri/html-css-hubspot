@@ -179,6 +179,10 @@ __________
     text-decoration: none;
 }
 
+.menu-inline li:nth-child(5) {
+    padding-right: 0;
+}
+
 /* NAVBAR */
 #navbar-fixed {
     position: fixed;

@@ -204,7 +204,12 @@ __________
 
 .navbar-logo {
     margin-left: 100px;
+    margin-right: 100px;
     vertical-align: middle;
+}
+
+.navbar-mr {
+    margin-right: 100px;
 }
 
 .navbar-right {

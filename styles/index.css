@@ -179,7 +179,7 @@ __________
     text-decoration: none;
 }
 
-.menu-inline li:nth-child(5) {
+.menu-inline li:last-child {
     padding-right: 0;
 }
 
@@ -370,7 +370,7 @@ _________              __  .__
     height: 1px;
     background: #cbd6d5;
     position: absolute;
-    top: 65%;
+    top: 64%;
     left: 20%;
 }
 

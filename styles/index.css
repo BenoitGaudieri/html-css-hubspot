@@ -267,12 +267,10 @@ __________
     position: relative;
 }
 
-/* TODO: to fix */
 .back {
     background-image: url(../img/jumbotron.png);
-    background-color: #fff2ee;
+    background-color: #fff5ee;
     background-repeat: no-repeat;
-    background-size: 1000px cover;
     height: 100%;
     width: 100%;
     background-position: 100%, 100%;

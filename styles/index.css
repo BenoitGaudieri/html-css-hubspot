@@ -327,10 +327,11 @@ _________              __  .__
 
 .hero-content {
     margin-left: 50px;
+    position: relative;
 }
 
 .hero-content-height {
-    height: 500px;
+    height: 680px;
 }
 
 .hero-content img {
@@ -368,7 +369,18 @@ _________              __  .__
     left: 20%;
 }
 
-.box-text i {
+.hero-text-line:after {
+    content: "";
+    width: 75%;
+    height: 1px;
+    background: #cbd6d5;
+    position: absolute;
+    top: 87%;
+    left: 12%;
+}
+
+.box-text i,
+.box-list i {
     color: #ff7a59;
     padding-right: 5px;
 }
@@ -402,6 +414,27 @@ _________              __  .__
 .last-box {
     margin-right: 100px;
     margin-bottom: 50px;
+}
+
+.box-list {
+    padding-bottom: 20px;
+}
+
+.box-list h4 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.box-list ul {
+    padding-bottom: 20px;
+}
+
+.box-list li {
+    list-style: none;
+    text-transform: capitalize;
+    padding-top: 15px;
+    padding-left: 32px;
+    text-align: left;
 }
 
 /* 
